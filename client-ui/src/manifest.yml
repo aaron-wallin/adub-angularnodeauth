@@ -1,0 +1,7 @@
+---
+applications:
+- name: adub-angularui
+  buildpack: staticfile_buildpack
+  memory: 512M
+  instances: 1
+  random-route: true
