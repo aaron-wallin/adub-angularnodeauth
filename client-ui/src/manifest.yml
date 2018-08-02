@@ -4,4 +4,5 @@ applications:
   buildpack: staticfile_buildpack
   memory: 512M
   instances: 1
-  random-route: true
+  routes:
+  - route: adub-angularui-restless-raven.apps.pcf.sandbox.cudirect.com

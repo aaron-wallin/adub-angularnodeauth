@@ -3,4 +3,5 @@ applications:
 - name: adub-nodejsapi
   memory: 512M
   instances: 1
-  random-route: true
+  routes:
+  - route: adub-nodejsapi-fluent-puku.apps.pcf.sandbox.cudirect.com
